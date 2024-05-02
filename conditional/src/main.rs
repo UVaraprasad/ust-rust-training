@@ -28,5 +28,4 @@ fn main() {
     }else{
         println!("invalid data");
     }
-
 }
