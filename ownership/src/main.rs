@@ -48,6 +48,9 @@ fn greet3(input: &mut String){
     input.push_str("The whold world should say Hello world");
 }
 
+fn greet4(mut input:String){
+    input.push_str("The whold world should say Hello world");
+}
 
 fn get_len(input: &String){
   println!("Length:{}",input.len()); // not mutating the string hence no need of mutable reference of input
@@ -67,3 +70,8 @@ fn get_len(input: &String){
 // Instead of transffering the ownership, you can borrow a reference to a value
 // Borrowing allows you to temporarily use a value without taking the ownership
 // references are immutable by default, to avoid accidental modifications.
+
+
+// move
+// borrow
+// borrow checker --> compiler has got a borrow checker
