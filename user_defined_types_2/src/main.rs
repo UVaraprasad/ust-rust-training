@@ -43,7 +43,7 @@ impl Rectangle{
     }
 }
 
-// new type struct
+// new type  tuple struct
  struct Square(f32);
 
  // unit struct or empty struct
