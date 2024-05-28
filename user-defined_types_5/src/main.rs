@@ -6,7 +6,7 @@ fn main() {
     make_payment(&mut x1, 1000.23);
     make_payment(&mut y1, 10324.0);
     make_payment(&mut z1, 100.3);
-println!();
+    println!();
     make_payment1(&mut x1, 1000.23);
     make_payment1(&mut y1, 10324.0);
     make_payment1(&mut z1, 100.3);
