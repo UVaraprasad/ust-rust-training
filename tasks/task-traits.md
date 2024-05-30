@@ -20,3 +20,8 @@ trait Math<T> {
     fn get(&self) -> Self::Item;
 }
 ```
+
+- create your own struct , Rect
+- print rect object using println! without debug and also with out {:?}
+- It order to achieve that you need to implement Display trait
+- implement Display, Drop traits
