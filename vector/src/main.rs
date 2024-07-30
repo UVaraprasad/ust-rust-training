@@ -66,7 +66,6 @@ fn get_sum_of_array(arr: &[i32]) -> i32 {
         println!("{}", v);
         sum += v;
     }
-    // let v = &arr[0];
     return sum;
 }
 
